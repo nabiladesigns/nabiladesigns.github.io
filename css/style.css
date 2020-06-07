@@ -1,19 +1,21 @@
+@font-face {
+  font-family: Raleway-ExtraBold;
+  src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Raleway-ExtraLight;
+  src: url(../fonts/Raleway-ExtraLight.ttf);
+}
+
 body {
   margin: 0;
-}
-
-header {
-  text-align: center;
-}
-
-header div {
-  max-width: 1200px;
-  display: inline-block;
 }
 
 header .logo {
   font-size: 42px;
   color: #222;
+  font-family: Raleway-ExtraBold;
 }
 
 header a {
@@ -22,20 +24,24 @@ header a {
 }
 
 header h1 {
-  display: inline-block;
   margin: 0;
 }
 
 header .navbar {
-  display: inline-block;
   list-style: none;
-  margin: 0;
+  font-family: Raleway-ExtraLight;
 }
 
-.navbar li {
-  display: inline-block;
+.navbar a {
+  color: #888;
 }
 
 .homepageImg {
   text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  header .logo {
+    font-size: 200px;
+  }
 }
