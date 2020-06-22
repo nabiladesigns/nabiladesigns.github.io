@@ -8,10 +8,6 @@
   src: url(../fonts/Raleway-ExtraLight.ttf);
 }
 
-body {
-  margin: 0;
-}
-
 header .logo {
   font-size: 42px;
   color: #222;
@@ -23,10 +19,6 @@ header a {
   color: #000;
 }
 
-header h1 {
-  margin: 0;
-}
-
 header .navbar {
   list-style: none;
   font-family: Raleway-ExtraLight;
@@ -36,8 +28,8 @@ header .navbar {
   color: #888;
 }
 
-.homepageImg {
-  text-align: center;
+.copyright {
+  font-size: 10px;
 }
 
 @media screen and (max-width: 400px) {
