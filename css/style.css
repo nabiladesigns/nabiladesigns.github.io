@@ -75,7 +75,8 @@ header .navbar {
 }
 
 .link-card img {
-  width: 350px;
+  max-width: 350px;
+  width:100%;
 }
 
 .link-card a {
