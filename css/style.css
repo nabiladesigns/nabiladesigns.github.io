@@ -8,6 +8,10 @@
   src: url(../fonts/Raleway-ExtraLight.ttf);
 }
 
+h1, h2, h3, h4, p {
+  font-family: Raleway-ExtraLight;
+}
+
 #logo {
   max-width: 250px;
 }
@@ -43,6 +47,44 @@ header .navbar {
   background-position: center;
   height: 650px;
   background-size: cover;
+}
+
+.intro {
+  padding: 15px;
+}
+
+.intro * {
+  margin-bottom: 1rem;
+}
+
+.intro *:last-child {
+  margin-bottom: 0px;
+}
+
+.link-card-row {
+  text-align: center;
+}
+
+.link-card {
+  display: inline-block;
+  margin: 20px 60px;
+}
+
+.link-card:hover {
+  opacity: 0.8
+}
+
+.link-card img {
+  width: 350px;
+}
+
+.link-card a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.link-card p {
+  margin-top: 10px;
 }
 
 @media screen and (max-width: : 600px) {
