@@ -1,9 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>NabilaDesigns</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./favicon.png">
 </head>
 <body>
-  <h1>hello world</h1>
+  <div class="container">
+    <div class="item" id="me-container">
+      <img id="me" src="./me.png">
+    </div>
+    <div class="item" id="text-container">
+      <h1>Hi, I'm Nabila!</h1>
+      <p>I'm a product/UX designer and formerly a product developer and artist in the fashion industry.</p>
+      <p>I love creating aesthetically and functionally enjoyable experiences for human beings.</p>
+      <p>I live with my two cats and a miscellany of plant life in Dallas, where I design and maintain the website for the <a href="https://www.cedarsopenstudios.org">Cedars Open Studios</a> and release new installments to my Patience Project.</p>
+      <p>When I’m not designing in Figma, find me sewing, singing and playing piano, and caring for my plants.</p>
+      <p>Connect with me on <a href="https://www.linkedin.com/in/nabiladesigns">LinkedIn</a>!</p>
+      <hr>
+    </div>
+  </div>
 </body>
+
+<style type="text/css">
+  @font-face {
+    font-family: Dosis-Light;
+    src: url(./Dosis-Light.ttf);
+  }
+
+  @font-face {
+    font-family: Quicksand-Regular;
+    src: url(./Quicksand-Regular.ttf);
+  }
+
+  body {
+    background-color: #f2fff9
+  }
+
+  a {
+    color: #2c635f;
+    text-decoration: none;
+  }
+
+  #me {
+    max-width: 500px;
+    width: 75%;
+    padding: 50px;
+    vertical-align: middle;
+  }
+
+  #me-container {
+    text-align: right;
+    width: 25%;
+  }
+
+  #text-container {
+    width: 75%;
+  }
+
+  #text-container h1 {
+    font-family: Quicksand-Regular;
+    font-size: 2.5rem;
+  }
+
+
+  #text-container p {
+    font-family: Dosis-Light;
+    font-size: 1.2rem;
+  }
+
+  .container {
+    padding: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .item {
+    max-width: 500px;
+    min-width: 300px;
+    width: 50%;
+  }
+
+  @media only screen and (max-width: 800px) {
+    #me-container {
+      text-align: center;
+      width: 100%;
+    }
+
+    #me {
+      padding: 0;
+    }
+
+    #text-container {
+      width: 100%;
+    }
+  }
+
+</style>
+
 </html>
