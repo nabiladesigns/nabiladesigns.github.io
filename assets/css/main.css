@@ -100,6 +100,10 @@ input, select, textarea {
 		background: #1c1d26;
 	}
 
+	html.page, body.page {
+		background: #333542;
+	}
+
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 		-moz-animation: none !important;
 		-webkit-animation: none !important;
@@ -154,6 +158,35 @@ input, select, textarea {
 		line-height: 1em;
 		margin: 0 0 1em 0;
 		font-family: 'DM Serif Display', serif !important;
+	}
+
+	h2.page, h3.page, p.page {
+		color:  #fff;
+	}
+
+	h2.page {
+		margin: 0 0 .25em 0;
+	}
+
+	.meet {
+		margin: 0 auto;
+		max-width: 450px;
+		min-width: 300px;
+		font-family: 'Bitter';
+	}
+
+	p.meet {
+		margin-top: 1em;
+	}
+
+	div.meet {
+		display: inline-block;
+		border: 1px #aaa solid;
+		border-radius: 5px;
+		padding: 1rem;
+		/*max-width: ;*/
+		height: 100%;
+		margin-bottom: 1rem;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2169,7 +2202,10 @@ input, select, textarea {
 		text-align: center;
 	}
 
-
+	section.page {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
 
 	header p {
 		color: #424242;
@@ -2210,6 +2246,10 @@ input, select, textarea {
 			height: 0.2em;
 			max-width: 20em;
 			width: 75%;
+		}
+
+		header.major.green:after{
+			background: #8ecc93;
 		}
 
 	footer.major {
